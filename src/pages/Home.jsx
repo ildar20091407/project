@@ -15,13 +15,11 @@ const Home = () => {
 
            <main className="main__top">
                        <div className="main__top-title">
-                           <p >Обо мне</p>
+                           <p >О нас</p>
                        </div>
                    <div className="container">
                        <div className="main__top-box">
-                           <div className="main__top-left">
-                               <img src={MainTopImg} />
-                           </div>
+
                            <div className="main__top-right">
                                <h2 className="main__top-right-title">Зубенко Михаил Петрович</h2>
                                <p className="main__top-right-text">Я могу делать семейные портреты в студии, работать на показах мод, снимать моделей для рекламы или фотографировать на свадьбах. Отдельное направление -- съёмки предметов и еды, которые заказывают для рекламы или меню ресторанов. Я могу быть криминальным фотографом мест преступлений, охотником за знаменитостями или снимать диких животных для журналов о природе. Я востребованный специалист в новостных изданиях, работаю в паре с журналистом и могу оказаться где угодно: от гламурной вечеринки до места пожара, наводнения и даже вооруженного конфликта. Моя профессия будет востребована и в будущем, ведь 80% успеха фотографии -- это не качество техники, а профессионализм фотографа. </p>
@@ -35,6 +33,8 @@ const Home = () => {
            <div className="container">
        <p className="footer__title">Связаться со мной</p>
        <div className="footer__text">
+        <div className="footer__top-btn">
+
        <button className="btn">
            <img src={img1} />
        </button>
@@ -44,12 +44,16 @@ const Home = () => {
        <button className="btn">
            <img src={img3} />
        </button>
+        </div>
+        <div className="footer__bottom">
+
        <button className="btn">
            <img src={img4} />
        </button>
        <button className="btn">
            <img src={img5} />
        </button>
+        </div>
        </div>
            </div>
            </nav>

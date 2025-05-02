@@ -21,7 +21,7 @@ const Navbar = () => {
 <div className="nav__right">
 
   <div className="logo">
-    <img src={proweb}/>
+    <img src={proweb} className="nav__img" />
   </div>
 </div>
 <div className="nav__left">
